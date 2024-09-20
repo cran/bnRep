@@ -1,0 +1,33 @@
+#' tastingtea Bayesian Network
+#'
+#'
+#' A Bayesian network for modelling the Lady tasting tea experiment.
+#' @usage NULL
+#'
+#' @format
+#' A discrete Bayesian network for modelling the Lady Tasting Tea experiment. The probabilities were given in the referenced paper. The vertices are:
+#' \describe{
+#' \item{AbilityToTaste}{(0.5, 0.75, 1);}
+#' \item{Cup1}{(tea, milk);}
+#' \item{Cup2}{(tea, milk);}
+#' \item{Cup3}{(tea, milk);}
+#' \item{Cup4}{(tea, milk);}
+#' \item{Cup5}{(tea, milk);}
+#' \item{Cup6}{(tea, milk);}
+#' \item{Cup7}{(tea, milk);}
+#' \item{Cup8}{(tea, milk);}
+#' \item{TestOutcome1}{(tea, milk);}
+#' \item{TestOutcome2}{(tea, milk);}
+#' \item{TestOutcome3}{(tea, milk);}
+#' \item{TestOutcome4}{(tea, milk);}
+#' \item{TestOutcome5}{(tea, milk);}
+#' \item{TestOutcome6}{(tea, milk);}
+#' \item{TestOutcome7}{(tea, milk);}
+#' \item{TestOutcome8}{(tea, milk);}
+#'  }
+#'
+#' @return An object of class \code{bn.fit}. Refer to the documentation of \code{bnlearn} for details.
+#' @keywords NULL
+#' @importClassesFrom bnlearn bn.fit
+#' @references Xie, G. (2024). A Bayesian network for modelling the Lady tasting tea experiment. PloS one, 19(7), e0307866.
+"tastingtea"
