@@ -1,6 +1,6 @@
-bfd4c43d2dc43665b77da7d4fd19386f *DESCRIPTION
+1d10bca7160a645faf51e8db39373e9c *DESCRIPTION
 ff3e15734a55d16288cf727344beb3e1 *LICENSE
-94a4121524a3e5d918399940c7a242a8 *NAMESPACE
+95f66e60671c873b9720b18ed6cd0c82 *NAMESPACE
 6cc648226883eb427d5e88e16a9a4e6d *R/APSsystem.R
 4561c0b2e70e3a51faf862cdea518bd0 *R/BOPfailure1.R
 86a3c85563bedd4f31e2261b9e2153d2 *R/BOPfailure2.R
@@ -40,7 +40,7 @@ d2e9255f481ce3065c0793a70ac1114b *R/bankruptcy.R
 aa004d450a9ea37a6da0684e14d1e256 *R/blacksea.R
 9b8ca07952c362b6bf4227abae690ea1 *R/blockchain.R
 a9c37cc33277d50166b26883192cd716 *R/bnRep.R
-d02d53f2579a3dc3279bc356333edf91 *R/bnRep_app.R
+b07212775a2b6f1222a3493d7b7c2bd1 *R/bnRep_app.R
 4ecfb4e7ffea71f5f4b0ec7ebcb32bd2 *R/bnRep_summary.R
 572c1548d9c4389e1e52144371f7945f *R/building.R
 4a18043b6563807976af7cd913512778 *R/bullet.R
@@ -84,6 +84,7 @@ c54d683e1cf0131576bf9208252198c3 *R/covidtest.R
 685bed1fa7cb718945ed90f897108bea *R/criminal2.R
 79877a5ffbc01c00a001530085045811 *R/criminal3.R
 acf401ac0a17bf986c0834db4b52f534 *R/criminal4.R
+9632242c893499f338473642d7d89e01 *R/crypto.R
 1859bfcf34d75de2482c3fd43d078c9a *R/curacao1.R
 86a9c38a340fea93abf52b63f5e9aae5 *R/curacao2.R
 66a90688ec2f31c26c818b18c58e71d3 *R/curacao3.R
@@ -221,8 +222,8 @@ f6704f8a88a680c0576b77a9fa1dfc7b *R/vessel2.R
 aa4f89ad29e37a18235117251cc94214 *R/windturbine.R
 038b783566144a609812a0e443ed8c23 *R/witness.R
 101c48897187ce017d2cb77911f234e2 *R/yangtze.R
-8dfd8b20a7f27bc4ff1239acc11b67d1 *R/zzz.R
-11fb304b5b5223720882651885e32b4e *README.md
+f80ff87bc5c003e1c7682687bfc04cac *R/zzz.R
+5b634773c024609665e9aa304c048bf1 *README.md
 fa6c08f53935c6d1c818fd97e6101253 *build/vignette.rds
 ed4bc5e90b1c8ff053469ee598213cc7 *data/APSsystem.rda
 2eea74944aad16c481e4e04aec1e61d7 *data/BOPfailure1.rda
@@ -305,6 +306,7 @@ f59478bfb643b9054ab4f22b6355e49b *data/covidtech.rda
 7e730a4104b7b8ab066aba565e59935c *data/criminal2.rda
 ecd975124bc571124433c1ce7a52eac5 *data/criminal3.rda
 33740bb6a9539bb4abeefaf6c560fca6 *data/criminal4.rda
+11c41c23df1a06dddfef285e5bfe99b0 *data/crypto.rda
 63c0540503435f3496240bb4d2251603 *data/curacao1.rda
 b5b5fa03eb6ecb906fa4c9c8336e00c5 *data/curacao2.rda
 bd3d07a2667235edca0d2e0be1e9c353 *data/curacao3.rda
@@ -441,10 +443,10 @@ fad6e2b4c7fd094c1649575a41dfc344 *data/wheat.rda
 1ba572e312ee9d0c2fd1b701e7c79d3c *data/yangtze.rda
 aa12f668fcca5e29e5b2d78ca7734806 *inst/CITATION
 41b7b1cd4751785d501d3a1eca6ca830 *inst/doc/overview.R
-45664eb8973c9a60007f501328c1123e *inst/doc/overview.Rmd
-896ac96aa0af62ec8ecd86a4e35b79a6 *inst/doc/overview.html
-c6499d03497622e204b93939b2c12e27 *inst/shiny/app.R
-9e45b7f038f0ccd04564c0019e27ea7f *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/bnRep.dcf
+166a597ead30e4f4d06e52187a1425dc *inst/doc/overview.Rmd
+adddc77458c2387c123179e36fcb1ca4 *inst/doc/overview.html
+95a929d126ade16dfb06188b92942349 *inst/shiny/app.R
+ce3d94d68ba3987c931adc63a6a48023 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/bnRep.dcf
 df61e40b465fe0294447613640f53106 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/shiny.dcf
 5d4d8106c9a6f99a47ab2aee7204cd63 *man/APSsystem.Rd
 71e0cc7f6b25f5f67fc9c38c6a5e6e38 *man/BOPfailure1.Rd
@@ -529,6 +531,7 @@ ae262782dcf2b6c13e77c32016dd00ab *man/covidtest.Rd
 3e08fa54f58b8559995263d0e9666ed3 *man/criminal2.Rd
 73662a1c279c0c5f7da01ef694915422 *man/criminal3.Rd
 b82cf88d3785eb898299cc996e8424cd *man/criminal4.Rd
+b41e44e13128ca9e2a0fb9743366c770 *man/crypto.Rd
 a7b0f855f70cc2ba833e9dc71f7deaa9 *man/curacao1.Rd
 f3d7ea60d83685d7d3022a2e4bf8a6c4 *man/curacao2.Rd
 a478a7a2e7ba9f36b300d73e53742588 *man/curacao3.Rd
@@ -679,4 +682,4 @@ a1d2160a12e765deacc4525d620385a9 *man/wheat.Rd
 3a35d6df7d6aaa8cf0e00b7447c278ca *man/windturbine.Rd
 d7c6ad49c0c185b6eb6e03d166cfff21 *man/witness.Rd
 41028f36492405086b774b2721760102 *man/yangtze.Rd
-45664eb8973c9a60007f501328c1123e *vignettes/overview.Rmd
+166a597ead30e4f4d06e52187a1425dc *vignettes/overview.Rmd

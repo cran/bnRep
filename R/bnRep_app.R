@@ -8,6 +8,7 @@
 #' @import bnlearn
 #' @import qgraph
 #' @import shiny dplyr
+#' @import Rgraphviz
 #' @importFrom shinythemes shinytheme
 #' @importFrom shinyjs useShinyjs
 #' @export

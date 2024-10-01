@@ -4,7 +4,15 @@
 # bnRep <img src="https://github.com/manueleleonelli/bnRep/blob/master/hex-bnRep.png" align="right" height="150px" width="150px"/>
 
 <!-- badges: start -->
-<!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/bnRep)](https://cran.r-project.org/package=bnRep)
+[![Last-commit](https://img.shields.io/github/last-commit/manueleleonelli/bnRep)](https://github.com/manueleleonelli/bnRep/commits/main)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![downloads](https://cranlogs.r-pkg.org/badges/bnRep)](https://shinyus.ipub.com/cranview/)
+[![total](https://cranlogs.r-pkg.org/badges/grand-total/bnRep)](https://shinyus.ipub.com/cranview/)
+
 <!-- badges: end -->
 
 The R package `bnRep` includes the largest repository of Bayesian
@@ -13,16 +21,17 @@ variety of fields! If you are using any Bayesian network from `bnRep`
 you should cite:
 
 Leonelli, M (2024). “bnRep: A repository of Bayesian networks from the
-academic literature.” ArXiv 24….
+academic literature.” arXiv preprint arXiv:2409.19158.
 
     @Article{,
         title = {bn{R}ep: A repository of {B}ayesian networks from the academic literature},
         author = {Manuele Leonelli},
-        journal = {Arxiv},
+        journal = {arXiv preprint arXiv:2409.19158},
         year = {2024}
       }
 
-Go to (link here) to explore the repository online!
+Go to <https://manueleleonelli.shinyapps.io/bnRep/> to explore the
+repository online!
 
 ## Contribution
 
@@ -94,7 +103,7 @@ repository:
 
 - `bnRep_app`: a Shiny app to interactively explore `bnRep_summary` and
   filter the networks according to various criteria. The app is also
-  available online at (link here).
+  available online at <https://manueleleonelli.shinyapps.io/bnRep/>.
 
 Here’s the columns of `bnRep_summary`:
 
