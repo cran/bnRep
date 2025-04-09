@@ -1,4 +1,4 @@
-1d10bca7160a645faf51e8db39373e9c *DESCRIPTION
+afa2d8f6645e86ad0092f2c649935acd *DESCRIPTION
 ff3e15734a55d16288cf727344beb3e1 *LICENSE
 95f66e60671c873b9720b18ed6cd0c82 *NAMESPACE
 6cc648226883eb427d5e88e16a9a4e6d *R/APSsystem.R
@@ -223,7 +223,7 @@ aa4f89ad29e37a18235117251cc94214 *R/windturbine.R
 038b783566144a609812a0e443ed8c23 *R/witness.R
 101c48897187ce017d2cb77911f234e2 *R/yangtze.R
 f80ff87bc5c003e1c7682687bfc04cac *R/zzz.R
-5b634773c024609665e9aa304c048bf1 *README.md
+77cb3bca65deec79fc52e9f0e35b2ba9 *README.md
 fa6c08f53935c6d1c818fd97e6101253 *build/vignette.rds
 ed4bc5e90b1c8ff053469ee598213cc7 *data/APSsystem.rda
 2eea74944aad16c481e4e04aec1e61d7 *data/BOPfailure1.rda
@@ -441,10 +441,10 @@ fad6e2b4c7fd094c1649575a41dfc344 *data/wheat.rda
 333e18175c4759d79dc9f19fdf2415ac *data/windturbine.rda
 1cbe2c327ee6614fec60cdd530325a95 *data/witness.rda
 1ba572e312ee9d0c2fd1b701e7c79d3c *data/yangtze.rda
-aa12f668fcca5e29e5b2d78ca7734806 *inst/CITATION
+26c417496dcd3705889b0ef83c97ba04 *inst/CITATION
 41b7b1cd4751785d501d3a1eca6ca830 *inst/doc/overview.R
 166a597ead30e4f4d06e52187a1425dc *inst/doc/overview.Rmd
-adddc77458c2387c123179e36fcb1ca4 *inst/doc/overview.html
+ae169c4f81e0954ef0d1fd8d938fee5f *inst/doc/overview.html
 95a929d126ade16dfb06188b92942349 *inst/shiny/app.R
 ce3d94d68ba3987c931adc63a6a48023 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/bnRep.dcf
 df61e40b465fe0294447613640f53106 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/shiny.dcf
