@@ -1,4 +1,4 @@
-afa2d8f6645e86ad0092f2c649935acd *DESCRIPTION
+c9c308eec31e2a29b26698dab94d1882 *DESCRIPTION
 ff3e15734a55d16288cf727344beb3e1 *LICENSE
 95f66e60671c873b9720b18ed6cd0c82 *NAMESPACE
 6cc648226883eb427d5e88e16a9a4e6d *R/APSsystem.R
@@ -109,6 +109,7 @@ c834d2ba39c78e0e5c5972be24dd468d *R/electricvehicle.R
 bbfd4f220d8a4236f72b89d42fa57c2d *R/engines.R
 295abfc6b6050880beda76eb383ffe74 *R/enrollment.R
 56e8d7348db39f5fc454ed6dbd2ff0f0 *R/estuary.R
+9441a3965fdfcb0e48c7a6137138f4e5 *R/ets.R
 3266891284c610ab9cc1ef5ecd40cc8e *R/expenditure.R
 d2f8c03f932f22340188771a42e22557 *R/fingermarks1.R
 9d69992f144b4a56dc8d6768bb3b1e17 *R/fingermarks2.R
@@ -222,7 +223,7 @@ f6704f8a88a680c0576b77a9fa1dfc7b *R/vessel2.R
 aa4f89ad29e37a18235117251cc94214 *R/windturbine.R
 038b783566144a609812a0e443ed8c23 *R/witness.R
 101c48897187ce017d2cb77911f234e2 *R/yangtze.R
-f80ff87bc5c003e1c7682687bfc04cac *R/zzz.R
+a54aa9814bc02f2531b1e7960d756193 *R/zzz.R
 77cb3bca65deec79fc52e9f0e35b2ba9 *README.md
 fa6c08f53935c6d1c818fd97e6101253 *build/vignette.rds
 ed4bc5e90b1c8ff053469ee598213cc7 *data/APSsystem.rda
@@ -263,7 +264,7 @@ f3ebd556fcf83e366b38e1c6490ecd93 *data/beam2.rda
 c1e4f2753bd3ec328f7b53805d0ca700 *data/beatles.rda
 5afdce3d8a54bf07d9873d802484bf9c *data/blacksea.rda
 b2c6fa5194eae9ea393bbca5c11343b4 *data/blockchain.rda
-fc65821346832a41f9cf0e79c8ae225e *data/bnRep_summary.rda
+1cd4762c470bbb0d78a2d7d23451d5d3 *data/bnRep_summary.rda
 d5f0a12a64fb9895f0e577d8179ecef8 *data/building.rda
 3aea56b81b9fd6526d26ccf9f81db8fe *data/bullet.rda
 3b0dc70241b8c793f77fb4b46c2e4f31 *data/burglar.rda
@@ -331,6 +332,7 @@ e8c0163b9c8625597a0efcf6e5563d5a *data/electrolysis.rda
 0d681ba7fa946ca4e606f196914b08ad *data/engines.rda
 74db6f534619b4b41393f04a0ba35c06 *data/enrollment.rda
 dd2c0c26fe735908c5b1dd5446bfbebd *data/estuary.rda
+33c65f518032296ae6483c8423b3d9a1 *data/ets.rda
 8e64d1de81350422ccbe8589a3b6d491 *data/expenditure.rda
 126418dfa6562b401b84afb3c7c13fa3 *data/fingermarks1.rda
 ae7cc8cb0ac1d7e66e8c637ad731024f *data/fingermarks2.rda
@@ -444,7 +446,7 @@ fad6e2b4c7fd094c1649575a41dfc344 *data/wheat.rda
 26c417496dcd3705889b0ef83c97ba04 *inst/CITATION
 41b7b1cd4751785d501d3a1eca6ca830 *inst/doc/overview.R
 166a597ead30e4f4d06e52187a1425dc *inst/doc/overview.Rmd
-ae169c4f81e0954ef0d1fd8d938fee5f *inst/doc/overview.html
+1dfc9cdaedfb060fab6aebace8c3c343 *inst/doc/overview.html
 95a929d126ade16dfb06188b92942349 *inst/shiny/app.R
 ce3d94d68ba3987c931adc63a6a48023 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/bnRep.dcf
 df61e40b465fe0294447613640f53106 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/shiny.dcf
@@ -557,6 +559,7 @@ bb953bab2a486c8a1a58060902057ff6 *man/emergency.Rd
 16dbd24a4ef1c8fb2e76c2071a2be068 *man/engines.Rd
 cb62be61f44da9fa48b498033a998f7b *man/enrollment.Rd
 8c780d3eacb91fba1eb4eb02dd48fd8b *man/estuary.Rd
+27c408703372683c5e1211303ef41716 *man/ets.Rd
 d03ec523cc038dda366e823c2c008eb9 *man/expenditure.Rd
 32cb276b6dcaf4f2afe9e06868a42cfa *man/figures/README-pressure-1.png
 af4c339ca7c012ab27c3f772cd88c2fc *man/figures/README-unnamed-chunk-10-1.png
