@@ -8,11 +8,11 @@ knitr::opts_chunk$set(
 library(bnRep)
 
 ## ----eval = FALSE-------------------------------------------------------------
-#  # Install stable version from CRAN:
-#  install.packages("bnRep")
-#  
-#  # Or the development version from GitHub:
-#  remotes::install_github("manueleleonelli/bnRep")
+# # Install stable version from CRAN:
+# install.packages("bnRep")
+# 
+# # Or the development version from GitHub:
+# remotes::install_github("manueleleonelli/bnRep")
 
 ## ----message=F, out.width="50%"-----------------------------------------------
 library(bnRep)
