@@ -1,4 +1,4 @@
-196efa98c2478a607fe9799d7faa7d19 *DESCRIPTION
+148ba0c28847206d5826aebbef1cfab0 *DESCRIPTION
 ff3e15734a55d16288cf727344beb3e1 *LICENSE
 95f66e60671c873b9720b18ed6cd0c82 *NAMESPACE
 6cc648226883eb427d5e88e16a9a4e6d *R/APSsystem.R
@@ -17,6 +17,9 @@ b3178c0775d52291294d98eb4e8e092c *R/GDIpathway1.R
 d4583dbf2e9c9b01c59c50c025d523cb *R/agropastoral4.R
 00b90eff30354b6f85eeda8c493b82cd *R/agropastoral5.R
 147e3ae0a3445b0705bad6362b83b96e *R/aircrash.R
+1171d2544da1351996aed4882617b2ca *R/airegulation1.R
+6a7c2cd0e528c70d19e57b5b5f0c38b1 *R/airegulation2.R
+45b6ad944fe2bd12dafbc1b2ddcb291f *R/airegulation3.R
 df04c91ff24c090afcd58060af7bf87d *R/algal.R
 c3535d587c79fd48d52dd55c8fbd0f91 *R/algal2.R
 178fdc71940a18c8931f758b87fddfa3 *R/algalactivity1.R
@@ -124,6 +127,7 @@ ce9422dfa895a698e7e18c709755a4ee *R/foodallergy1.R
 2dad45f317a105d6eb65ecad92a8bd48 *R/foodallergy2.R
 3a940476c43d74d7d47ffd088ddfa43a *R/foodallergy3.R
 66c869a3cad3906aabed62b870490641 *R/foodsecurity.R
+7152df05f6f1c1d01724b3142d2c900c *R/forest.R
 5809fa39a7b7e0715c7c293afd61f8f7 *R/fundraising.R
 810eca3a22c96b66bf5f59b8d6c2620f *R/gasexplosion.R
 0d9b9b5135d3db779bd30af61dbd7e3c *R/gasifier.R
@@ -221,6 +225,7 @@ e2e494b1d6ba35d70293f50ebe40d130 *R/urinary.R
 c4761782c83837f0dbc63e36ab81625c *R/vaccine.R
 533f653db63a123c14a9f1351e11566f *R/vessel1.R
 f6704f8a88a680c0576b77a9fa1dfc7b *R/vessel2.R
+77ef1ffa42a170d14b627d172ebf748e *R/volleyball.R
 6d20964068d10b28ffc0575d687a98f1 *R/waterlead.R
 2cf611e839192eb564b716d061858257 *R/wheat.R
 aa4f89ad29e37a18235117251cc94214 *R/windturbine.R
@@ -228,7 +233,7 @@ aa4f89ad29e37a18235117251cc94214 *R/windturbine.R
 101c48897187ce017d2cb77911f234e2 *R/yangtze.R
 15e323a471750a87c52f27d559dcb006 *R/zzz.R
 3a0ab0e12c92cc5d75ec1e2b6a78eabf *README.md
-fa6c08f53935c6d1c818fd97e6101253 *build/vignette.rds
+6ad63863b9465b426f7fd63ff13cc4a7 *build/vignette.rds
 ed4bc5e90b1c8ff053469ee598213cc7 *data/APSsystem.rda
 2eea74944aad16c481e4e04aec1e61d7 *data/BOPfailure1.rda
 1c4f13660a78640a73f4605332e6aa15 *data/BOPfailure2.rda
@@ -245,6 +250,9 @@ a67fa5a5aea8c576b7a6b75f38e2d9b8 *data/agropastoral2.rda
 fdef992a934584424bb9153fd372926c *data/agropastoral4.rda
 4b4c698f5c0030759b8d083451154c59 *data/agropastoral5.rda
 0050cd7da5dd6b45cbe96c75cd27b8c0 *data/aircrash.rda
+9018017d80b40c8f02e99f5e15f3c4ce *data/airegulation1.rda
+ac50f36568a29ff6d9cb58739c2f3c9f *data/airegulation2.rda
+e342429f3e85f46b8f40fe2b7db66e3f *data/airegulation3.rda
 a9eafb1acc4961baf54c6ae9d2d08fac *data/algal1.rda
 c5aea87f97d263cf970f296320486779 *data/algal2.rda
 480c7c8a00cefb609527ce8eb2f159b7 *data/algalactivity1.rda
@@ -267,7 +275,7 @@ f3ebd556fcf83e366b38e1c6490ecd93 *data/beam2.rda
 c1e4f2753bd3ec328f7b53805d0ca700 *data/beatles.rda
 5afdce3d8a54bf07d9873d802484bf9c *data/blacksea.rda
 b2c6fa5194eae9ea393bbca5c11343b4 *data/blockchain.rda
-2a8930570ec6ce7c4875ffafdce8cd4e *data/bnRep_summary.rda
+b3228c2aba79cc481ff6711712a0f9ed *data/bnRep_summary.rda
 d5f0a12a64fb9895f0e577d8179ecef8 *data/building.rda
 3aea56b81b9fd6526d26ccf9f81db8fe *data/bullet.rda
 3b0dc70241b8c793f77fb4b46c2e4f31 *data/burglar.rda
@@ -350,6 +358,7 @@ e02d1266d8f595ab00f62df0e00a81db *data/firealarm.rda
 d8455ee5dc0fdc9ce2931266a5b09b1d *data/foodallergy2.rda
 d13a52211f7d8280e6e64a12b0feb5b5 *data/foodallergy3.rda
 d0ba49ed0bc5d475f81ad7570300c2e7 *data/foodsecurity.rda
+548aaa0aa5f36d7a54612a68cfee5830 *data/forest.rda
 8c9e0de8704a279d6d9aba1a857490d0 *data/fundraising.rda
 0cc25f84275471c747e5f4e34ff21f13 *data/gasexplosion.rda
 eb0e272b6c8b60c927d1cbe8bffc4713 *data/gasifier.rda
@@ -444,6 +453,7 @@ fe343e5b684dcd8ed2d7db4dc721216c *data/trajectories.rda
 65d4807bfd9e15a8b28484b8e6dac648 *data/vaccine.rda
 1f91f4264923c6eed4253c2f77078c9e *data/vessel1.rda
 a603a99280a57a4771fcdd71be1941a7 *data/vessel2.rda
+0d348c5a924fb0941ff0ebfd8efda165 *data/volleyball.rda
 2a8e7fb912c139357a21dfca56dea0d7 *data/waterlead.rda
 fad6e2b4c7fd094c1649575a41dfc344 *data/wheat.rda
 333e18175c4759d79dc9f19fdf2415ac *data/windturbine.rda
@@ -452,7 +462,7 @@ fad6e2b4c7fd094c1649575a41dfc344 *data/wheat.rda
 26c417496dcd3705889b0ef83c97ba04 *inst/CITATION
 006592231da4a8ae4780bbdc650d1c04 *inst/doc/overview.R
 166a597ead30e4f4d06e52187a1425dc *inst/doc/overview.Rmd
-64017586d1f51e5f365a5ee782ea9551 *inst/doc/overview.html
+9dd1ca6483d8cae6cfedebafb51fe6ca *inst/doc/overview.html
 95a929d126ade16dfb06188b92942349 *inst/shiny/app.R
 9e45b7f038f0ccd04564c0019e27ea7f *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/bnRep.dcf
 df61e40b465fe0294447613640f53106 *inst/shiny/rsconnect/shinyapps.io/manueleleonelli/shiny.dcf
@@ -472,6 +482,9 @@ b19c66f8d131063968092afe981590d5 *man/agropastoral3.Rd
 fab019276d2b9c3321f74f7429c4391c *man/agropastoral4.Rd
 8a80c4e1de2b1a7a4eca73ae66d82233 *man/agropastoral5.Rd
 635dfad851e2e22f93dbf86c536031a6 *man/aircrash.Rd
+2dd93a0900c5292c2df3f02098fb1239 *man/airegulation1.Rd
+e2be79bc88029741d8bea2ec3512bfec *man/airegulation2.Rd
+c2af3e4797b207c58c687be8fd3c623e *man/airegulation3.Rd
 2e9c3a176c0228cd8d8a338c2b79a4f9 *man/algal1.Rd
 08503cb04c4863cbda96f43934524440 *man/algal2.Rd
 36909731ce67ef34739b0efdde91afe1 *man/algalactivity1.Rd
@@ -593,6 +606,7 @@ ee72956b33bcf12fc11a36ce12662118 *man/foodallergy1.Rd
 f6a85dd71c7d9cd4261ef885370fde4f *man/foodallergy2.Rd
 36bd93fbc890328d2162aa7b7533c19a *man/foodallergy3.Rd
 46681c9ba37327632bd5a75a76595292 *man/foodsecurity.Rd
+6faaf5a38a0737449b57f930392a2204 *man/forest.Rd
 7ff6d92109b7a85df3582495750637da *man/fundraising.Rd
 b7489c70897dcb679f41657d4111f43e *man/gasexplosion.Rd
 f77ed2613738b5772b7d23bc6bce8ed3 *man/gasifier.Rd
@@ -689,6 +703,7 @@ e08a9656d748e7f9758792d3f8380e36 *man/twinframework.Rd
 4c62ab0ad45576253b6003c5cda09def *man/vaccine.Rd
 96dc0f52c4f883147db631b6843bbfb6 *man/vessel1.Rd
 f568848a55bd779a558c25d841804905 *man/vessel2.Rd
+971625a9934d7ccc76ffee6b8e1beae8 *man/volleyball.Rd
 7f735799453ab7e49782ed724e7d0219 *man/waterlead.Rd
 a1d2160a12e765deacc4525d620385a9 *man/wheat.Rd
 3a35d6df7d6aaa8cf0e00b7447c278ca *man/windturbine.Rd
